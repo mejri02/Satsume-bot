@@ -1,0 +1,36 @@
+{
+  "name": "mejri02-satsume-bot",
+  "version": "2.0.0",
+  "description": "Satsume Airdrop Automation Bot by mejri02 - Auto Login, Check-in, Faucet, Purchase & Review",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js"
+  },
+  "keywords": [
+    "satsume",
+    "airdrop",
+    "automation",
+    "bot",
+    "crypto",
+    "ethereum",
+    "web3"
+  ],
+  "author": "mejri02",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.7",
+    "chalk": "^4.1.2",
+    "cli-table3": "^0.6.3",
+    "ethers": "^6.11.1",
+    "https-proxy-agent": "^7.0.4",
+    "socks-proxy-agent": "^8.0.2"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mejri02/satsume-bot"
+  }
+}
