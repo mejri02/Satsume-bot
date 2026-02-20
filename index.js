@@ -178,16 +178,13 @@ const logger = {
 function renderTable() {
     console.clear();
 
-    console.log(chalk.blue(`
-               / \\
-              /   \\
-             |  |  |
-             |  |  |
-              \\  \\
-             |  |  |
-             |  |  |
-              \\   /
-               \\ /
+    console.log(chalk.magenta(`
+    ███╗   ███╗███████╗     ██████╗██████╗ 
+    ████╗ ████║██╔════╝    ██╔════╝╚════██╗
+    ██╔████╔██║█████╗      ██║      █████╔╝
+    ██║╚██╔╝██║██╔══╝      ██║      ██╔═══╝ 
+    ██║ ╚═╝ ██║███████╗    ╚██████╗███████╗
+    ╚═╝     ╚═╝╚══════╝     ╚═════╝╚══════╝
     `));
     console.log(chalk.bold.cyan('    ======MEJRI02 AIRDROP======'));
     console.log(chalk.bold.cyan('  =====MEJRI02 SATSUME V1.0====='));
@@ -1371,13 +1368,17 @@ function getNextResetTime() {
 
 async function main() {
     console.clear();
-    console.log(chalk.cyan(`
-    ╔══════════════════════════════════════════╗
-    ║         MEJRI02 SATSUME BOT v1.0        ║
-    ║         Load PK from accounts.txt        ║
-    ║         Load Proxy from proxy.txt        ║
-    ╚══════════════════════════════════════════╝
+    console.log(chalk.magenta(`
+    ███╗   ███╗███████╗     ██████╗██████╗ 
+    ████╗ ████║██╔════╝    ██╔════╝╚════██╗
+    ██╔████╔██║█████╗      ██║      █████╔╝
+    ██║╚██╔╝██║██╔══╝      ██║      ██╔═══╝ 
+    ██║ ╚═╝ ██║███████╗    ╚██████╗███████╗
+    ╚═╝     ╚═╝╚══════╝     ╚═════╝╚══════╝
     `));
+    console.log(chalk.bold.cyan('    ======MEJRI02 AIRDROP======'));
+    console.log(chalk.bold.cyan('  =====MEJRI02 SATSUME V1.0====='));
+    console.log('');
 
     const accounts = loadAccounts();
 
